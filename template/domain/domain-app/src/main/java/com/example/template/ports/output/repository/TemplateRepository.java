@@ -1,4 +1,4 @@
-package com.example.template.objectexample.ports.output.repository;
+package com.example.template.ports.output.repository;
 
 import com.example.template.template.entity.template.Template;
 

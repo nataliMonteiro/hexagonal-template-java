@@ -1,7 +1,7 @@
 package com.example.template.adapter;
 
 
-import com.example.template.objectexample.ports.output.repository.TemplateRepository;
+import com.example.template.ports.output.repository.TemplateRepository;
 import com.example.template.template.entity.template.Template;
 import com.example.template.mapper.TemplateDataAccessMapper;
 import com.example.template.repository.TemplateJpaRepository;

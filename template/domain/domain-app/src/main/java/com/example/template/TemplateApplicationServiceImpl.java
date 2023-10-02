@@ -1,9 +1,9 @@
-package com.example.template.objectexample;
+package com.example.template;
 
-import com.example.template.objectexample.ports.input.service.TemplateApplicationService;
-import com.example.template.objectexample.dto.create.CreateTemplateCommand;
-import com.example.template.objectexample.dto.create.CreateTemplateResponse;
-import com.example.template.objectexample.mapper.TemplateDataMapper;
+import com.example.template.mapper.TemplateDataMapper;
+import com.example.template.ports.input.service.TemplateApplicationService;
+import com.example.template.dto.create.CreateTemplateCommand;
+import com.example.template.dto.create.CreateTemplateResponse;
 import com.example.template.template.event.template.TemplateCreatedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

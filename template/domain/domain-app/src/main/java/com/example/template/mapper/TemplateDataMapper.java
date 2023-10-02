@@ -1,7 +1,7 @@
-package com.example.template.objectexample.mapper;
+package com.example.template.mapper;
 
-import com.example.template.objectexample.dto.create.CreateTemplateCommand;
-import com.example.template.objectexample.dto.create.CreateTemplateResponse;
+import com.example.template.dto.create.CreateTemplateCommand;
+import com.example.template.dto.create.CreateTemplateResponse;
 import com.example.template.template.entity.template.Template;
 import org.springframework.stereotype.Component;
 

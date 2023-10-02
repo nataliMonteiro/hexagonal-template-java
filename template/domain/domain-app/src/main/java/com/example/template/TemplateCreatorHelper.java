@@ -1,8 +1,8 @@
-package com.example.template.objectexample;
+package com.example.template;
 
-import com.example.template.objectexample.ports.output.repository.TemplateRepository;
-import com.example.template.objectexample.dto.create.CreateTemplateCommand;
-import com.example.template.objectexample.mapper.TemplateDataMapper;
+import com.example.template.ports.output.repository.TemplateRepository;
+import com.example.template.dto.create.CreateTemplateCommand;
+import com.example.template.mapper.TemplateDataMapper;
 import com.example.template.template.entity.template.Template;
 import com.example.template.template.event.template.TemplateCreatedEvent;
 import com.example.template.template.service.template.TemplateDomainService;
